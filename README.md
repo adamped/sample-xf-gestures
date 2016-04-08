@@ -1,1 +1,1 @@
-# sample-xf-gestures
+# Sample Xamarin Forms Gesture Recognizers

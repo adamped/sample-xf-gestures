@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:gesture="clr-namespace:Mobile.Gestures;assembly=Mobile"
              x:Class="Mobile.View.MainPage" BackgroundColor="Black">
-  <Label Text="Press Me" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
+  
+  <Label Text="Press Me" WidthRequest="250" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="{Binding TextColor}" BackgroundColor="{Binding BackgroundColor}" VerticalOptions="Center" HorizontalOptions="Center">    
+    <Label.GestureRecognizers>     
+      <gesture:PressedGestureRecognizer Command="{Binding PressedGestureCommand}" />
+      <gesture:ReleasedGestureRecognizer Command="{Binding ReleasedGestureCommand}" />
+    </Label.GestureRecognizers>
+  </Label>
 </ContentPage>

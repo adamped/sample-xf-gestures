@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile.iOS", "Mobile\Mobile
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile.UWP", "Mobile\Mobile.UWP\Mobile.UWP.csproj", "{C446AEAD-30E6-459B-9289-8B628B53104B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{951C532E-B583-4CE1-BA4B-9EED5B97204B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -228,6 +233,8 @@ Global
 		{C446AEAD-30E6-459B-9289-8B628B53104B}.AppStore|x86.Build.0 = Release|x86
 		{C446AEAD-30E6-459B-9289-8B628B53104B}.AppStore|x86.Deploy.0 = Release|x86
 		{C446AEAD-30E6-459B-9289-8B628B53104B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C446AEAD-30E6-459B-9289-8B628B53104B}.Debug|Any CPU.Build.0 = Debug|x86
+		{C446AEAD-30E6-459B-9289-8B628B53104B}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{C446AEAD-30E6-459B-9289-8B628B53104B}.Debug|ARM.ActiveCfg = Debug|ARM
 		{C446AEAD-30E6-459B-9289-8B628B53104B}.Debug|ARM.Build.0 = Debug|ARM
 		{C446AEAD-30E6-459B-9289-8B628B53104B}.Debug|ARM.Deploy.0 = Debug|ARM

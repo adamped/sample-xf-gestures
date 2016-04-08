@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mobile.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,8 @@ namespace Mobile
         public App()
         {
             InitializeComponent();
+
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
