@@ -30,9 +30,7 @@ namespace Mobile.UWP.Renderer
                     Control.PointerReleased += Control_PointerReleased;
             }
         }
-
-
-
+        
         private void Control_PointerPressed(object sender, Windows.UI.Xaml.Input.PointerRoutedEventArgs e)
         {
             foreach (var recognizer in this.Element.GestureRecognizers.Where(x => x.GetType() == typeof(PressedGestureRecognizer)))
